@@ -1,0 +1,36 @@
+{
+  "name": "prettier-config-rschristian",
+  "version": "0.1.0",
+  "source": "index.js",
+  "main": "dist/prettier-config-rschristian.js",
+  "module": "dist/prettier-config-rschristian.module.js",
+  "exports": {
+    ".": {
+      "import": "./dist/prettier-config-rschristian.module.js",
+      "require": "./dist/prettier-config-rschristian.js"
+    }
+  },
+  "license": "MIT",
+  "description": "Personal Prettier configuration",
+  "repository": "https://github.com/rschristian/prettier-config-rschristian.git",
+  "author": "Ryan Christian <rschristian@ryanchristian.dev>",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "microbundle -f es,cjs --target node --no-sourcemap --compress index.js"
+  },
+  "peerDependencies": {
+    "prettier": "2.x"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.4"
+  }
+}

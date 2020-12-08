@@ -24,7 +24,7 @@ Or if you want to extend it, add the following in your `.prettierrc.js` file:
 
 ```js
 module.exports = {
-  ..require("prettier-config-rschristian"),
+  ...require("prettier-config-rschristian"),
   singleQuote: true,
 };
 ```

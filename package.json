@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-rschristian",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "source": "index.js",
   "main": "dist/prettier-config-rschristian.js",
   "module": "dist/prettier-config-rschristian.module.js",

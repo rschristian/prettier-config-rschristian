@@ -1,7 +1,7 @@
 export default {
     trailingComma: "all",
     singleQuote: true,
-    printWidth: 120,
+    printWidth: 100,
     tabWidth: 4,
     arrowParens: "always",
     overrides: [

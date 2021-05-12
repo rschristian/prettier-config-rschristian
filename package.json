@@ -31,6 +31,6 @@
     "prettier": "2.x"
   },
   "devDependencies": {
-    "microbundle": "^0.12.4"
+    "microbundle": "^0.13.0"
   }
 }

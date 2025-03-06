@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     trailingComma: "all",
     singleQuote: true,
     printWidth: 100,
@@ -6,7 +6,7 @@ export default {
     arrowParens: "always",
     overrides: [
         {
-            files: ["**.css", "**.scss", "**.json"],
+            files: ["**.css", "**.scss", "**.json", "**.md"],
             options: {
                 tabWidth: 2
             }

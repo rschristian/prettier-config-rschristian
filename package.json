@@ -1,13 +1,12 @@
 {
   "name": "prettier-config-rschristian",
   "version": "0.1.1",
-  "source": "index.js",
-  "main": "dist/prettier-config-rschristian.js",
-  "module": "dist/prettier-config-rschristian.module.js",
+  "main": "dist/config.js",
+  "module": "dist/config.mjs",
   "exports": {
     ".": {
-      "import": "./dist/prettier-config-rschristian.module.js",
-      "require": "./dist/prettier-config-rschristian.js"
+      "import": "./dist/config.mjs",
+      "require": "./dist/config.js"
     }
   },
   "license": "MIT",
@@ -24,13 +23,7 @@
     "package.json",
     "README.md"
   ],
-  "scripts": {
-    "build": "microbundle -f es,cjs --target node --no-sourcemap --compress index.js"
-  },
   "peerDependencies": {
     "prettier": "2.x"
-  },
-  "devDependencies": {
-    "microbundle": "^0.13.0"
   }
 }
